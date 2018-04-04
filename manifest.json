@@ -1,0 +1,9 @@
+{
+	"name": "Simple New Tab",
+	"version": "1.0",
+	"description": "A simple new tab page that won't track you.",
+	"manifest_version": 2,
+	"chrome_url_overrides" : {
+		"newtab": "newtabpage.html"
+	}
+}
